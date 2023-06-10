@@ -3,11 +3,18 @@ import {Component} from 'react';
 import {MenuItems} from '../Components/MenuItems';
 
 class NavBar extends Component{
+    state = {clicked: false};
+    handleClick = () =>{
+        this.setState({clicked: !this.state.clicked})
+    }
     render(){
         return(
             <nav className='navbarItems'>
                 <h1 className='navbar-logo'>Finesse</h1>
-                <ul className='navbar-menu'>
+                <div className='menu-icons' onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times':'fas fa-bars'}></i>
+                </div>
+                <ul className={this.state.clicked ? 'navbar-menu active' : 'navbar-menu'}>
                     {MenuItems.map((item, index) =>{
                         return(
                             <li key={index}>
@@ -18,6 +25,7 @@ class NavBar extends Component{
                             </li>
                         )
                     })}
+                    <button>Login</button>
                 </ul>
             </nav>
         );

@@ -43,3 +43,91 @@
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }
+
+.nav-links-mobile{
+    display: none;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: #2324;
+}
+
+.menu-icons{
+    display: none;
+}
+
+button:hover{
+    background-color: rgba(36, 27, 160, 0.418);
+    color: #ec790de5;
+}
+
+@media screen and (max-width: 850px) {
+    .navbarItems{
+        z-index: 99;
+    }
+    .navbar-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background:white;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        z-index: -1;
+    }
+
+    .navbar-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .menu-icons{
+        display: block;
+    }
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    .nav-links:hover{
+        background: rgba(34, 51, 34, 0.795);
+        transition: none;
+    }
+
+    button{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        display:block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        background: rgba(58, 70, 64, 0.637);
+        text-decoration: none;
+        color: #222;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+}
