@@ -1,9 +1,14 @@
+import Interim from '../Components/Interim';
+import NavBar from '../Components/NavBar';
+
 function Home (){
     return(
         <>
-            <h1>This is Home</h1>
+            <NavBar />
+            <Interim
+                cName = 'interim'
+            />
         </>
-    )
+    );
 }
-
 export default Home;

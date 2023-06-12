@@ -1,5 +1,4 @@
 import '../Style_Sheets/App.css';
-import NavBar from '../Components/NavBar';
 import Home from '../Pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import Contact from '../Pages/Contact';
@@ -15,8 +14,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
       </Routes>
-      <NavBar />
-      
     </div>
   );
 }

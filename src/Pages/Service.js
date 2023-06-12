@@ -1,7 +1,10 @@
+import NavBar from "../Components/NavBar";
+
 function Service (){
     return(
         <>
-        <h1>This is Service</h1>
+            <NavBar />
+            <h1>This is Service</h1>
         </>
     )
 }
