@@ -11,6 +11,9 @@ function Home (){
                 interimImage = {imageSource}
                 title = 'Home'
                 text = 'This is the Finnest Travel Site in the Country'
+                btnText = 'Travel Plan'
+                url = '/'
+                btnClass = 'link-interim'
             />
         </>
     );

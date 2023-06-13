@@ -1,10 +1,16 @@
+import Interim from "../Components/Interim";
 import NavBar from "../Components/NavBar";
 
 function Service (){
+    const imageSource = require('../Images/victoria_1.jpg');
     return(
         <>
             <NavBar />
-            <h1>This is Service</h1>
+            <Interim
+                cName = 'interim-mid'
+                interimImage = {imageSource}
+                title = 'Service'
+            />
         </>
     )
 }

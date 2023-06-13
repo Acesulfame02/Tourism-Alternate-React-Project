@@ -1,10 +1,16 @@
+import Interim from "../Components/Interim";
 import NavBar from "../Components/NavBar";
 
 function Contact (){
+    const imageSource = require('../Images/kalambo_falls.jpg');
     return(
         <>
             <NavBar />
-            <h1>This is Contact</h1>
+            <Interim
+                cName = 'interim-mid'
+                interimImage = {imageSource}
+                title = 'Contact'
+            />
         </>
     )
 }
