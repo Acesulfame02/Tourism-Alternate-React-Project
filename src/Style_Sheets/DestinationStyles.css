@@ -1,0 +1,13 @@
+.destination{
+    margin: 4rem 6rem;
+}
+
+.destination h1{
+    font-size: 3rem;
+}
+
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

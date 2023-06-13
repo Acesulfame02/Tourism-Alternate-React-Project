@@ -1,3 +1,4 @@
+import Destination from '../Components/Destination';
 import Interim from '../Components/Interim';
 import NavBar from '../Components/NavBar';
 
@@ -15,6 +16,7 @@ function Home (){
                 url = '/'
                 btnClass = 'link-interim'
             />
+            <Destination />
         </>
     );
 }
