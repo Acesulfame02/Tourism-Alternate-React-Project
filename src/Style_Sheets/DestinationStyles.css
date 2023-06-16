@@ -13,6 +13,14 @@
     margin-top: 4.5rem;
 }
 
+.first-des-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 4.5rem;
+}
+
 .des-text{
     width: 45%;
     text-align: start;
@@ -47,14 +55,31 @@
 
 @media screen and (max-width: 850px) {
     .destination{
-        margin: 4rem 2rem;
+        margin: 4rem 1rem;
     }
 
     .first-des{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 4.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .first-des-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .des-text{
+        width: 100%;
+    }
+
+    .images{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .images img{
+        height: 250px;
     }
 }

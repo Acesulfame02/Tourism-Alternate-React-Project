@@ -1,6 +1,7 @@
 import Destination from '../Components/Destination';
 import Interim from '../Components/Interim';
 import NavBar from '../Components/NavBar';
+import Trip from '../Components/Trip';
 
 function Home (){
     const imageSource = require('../Images/thumb_victoria2.jpg');
@@ -17,6 +18,7 @@ function Home (){
                 btnClass = 'link-interim'
             />
             <Destination />
+            <Trip />
         </>
     );
 }
