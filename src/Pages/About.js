@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Interim from "../Components/Interim";
 import NavBar from "../Components/NavBar";
 
@@ -11,6 +12,7 @@ function About (){
                 interimImage = {imageSource}
                 title = 'About'
             />
+            <Footer />
         </>
     );
 }
