@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Discover Zambia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Discover Zambia project, a tourism website dedicated to showcasing the beauty and attractions of Zambia.
 
-## Available Scripts
+## About Zambia
 
-In the project directory, you can run:
+Zambia is a beautiful country in Southern Africa, known for its stunning landscapes, diverse wildlife, and rich cultural heritage. Here are some of the top tourist attractions in Zambia:
 
-### `npm start`
+### Victoria Falls
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Victoria Falls](src/images/victoria_falls.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Victoria Falls, one of the Seven Natural Wonders of the World, is a breathtaking waterfall located on the Zambezi River at the border between Zambia and Zimbabwe. It is the largest waterfall in the world and a must-visit destination for any traveler.
 
-### `npm test`
+### South Luangwa National Park
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![South Luangwa National Park](src/images/south_luangwa.jpg)
 
-### `npm run build`
+South Luangwa National Park is renowned for its incredible wildlife and walking safaris. It is home to a wide variety of animals, including elephants, lions, leopards, and hippos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Lower Zambezi National Park
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Lower Zambezi National Park](src/images/lower_zambezi.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Lower Zambezi National Park offers stunning scenery and excellent opportunities for game viewing, fishing, and canoeing on the Zambezi River.
 
-### `npm run eject`
+### Kafue National Park
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Kafue National Park](src/images/kafue.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Kafue National Park is one of the largest national parks in Africa and offers a diverse range of wildlife and habitats. It is a great destination for safari enthusiasts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Livingstone
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Livingstone](src/images/livingstone.jpg)
 
-## Learn More
+Livingstone is a historic town near Victoria Falls and serves as a gateway to the falls. It offers a range of activities, including white-water rafting, bungee jumping, and cultural tours.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Images
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Images used in this project can be found in the `src/images` directory. Feel free to add more images to showcase the beauty of Zambia.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We welcome contributions to improve this project. Please feel free to submit pull requests or open issues.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
