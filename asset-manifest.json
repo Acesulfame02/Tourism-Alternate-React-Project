@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Tourism-Alternate-React-Project/static/css/main.ac1c2289.css",
-    "main.js": "/Tourism-Alternate-React-Project/static/js/main.7dd5bbc9.js",
-    "static/js/787.b4cdd736.chunk.js": "/Tourism-Alternate-React-Project/static/js/787.b4cdd736.chunk.js",
-    "static/media/thumb_victoria2.jpg": "/Tourism-Alternate-React-Project/static/media/thumb_victoria2.4c4821d6ab6179cd109f.jpg",
-    "static/media/victoria_1.jpg": "/Tourism-Alternate-React-Project/static/media/victoria_1.c9a9244d9c7be0cf5de9.jpg",
-    "static/media/img4.jpg": "/Tourism-Alternate-React-Project/static/media/img4.6c331df0a52bbf030e35.jpg",
-    "static/media/img2.jpg": "/Tourism-Alternate-React-Project/static/media/img2.bac3c18f9349102fe12b.jpg",
-    "static/media/kalambo_falls.jpg": "/Tourism-Alternate-React-Project/static/media/kalambo_falls.14ead7bf7c71c4ee70ca.jpg",
-    "static/media/img.jpg": "/Tourism-Alternate-React-Project/static/media/img.c623d4acc660145cf71b.jpg",
-    "static/media/img3.jpg": "/Tourism-Alternate-React-Project/static/media/img3.423c6c47cdeccfab87c0.jpg",
-    "index.html": "/Tourism-Alternate-React-Project/index.html",
-    "main.ac1c2289.css.map": "/Tourism-Alternate-React-Project/static/css/main.ac1c2289.css.map",
-    "main.7dd5bbc9.js.map": "/Tourism-Alternate-React-Project/static/js/main.7dd5bbc9.js.map",
-    "787.b4cdd736.chunk.js.map": "/Tourism-Alternate-React-Project/static/js/787.b4cdd736.chunk.js.map"
+    "main.css": "./static/css/main.ac1c2289.css",
+    "main.js": "./static/js/main.95bcac59.js",
+    "static/js/787.b4cdd736.chunk.js": "./static/js/787.b4cdd736.chunk.js",
+    "static/media/thumb_victoria2.jpg": "./static/media/thumb_victoria2.4c4821d6ab6179cd109f.jpg",
+    "static/media/victoria_1.jpg": "./static/media/victoria_1.c9a9244d9c7be0cf5de9.jpg",
+    "static/media/img4.jpg": "./static/media/img4.6c331df0a52bbf030e35.jpg",
+    "static/media/img2.jpg": "./static/media/img2.bac3c18f9349102fe12b.jpg",
+    "static/media/kalambo_falls.jpg": "./static/media/kalambo_falls.14ead7bf7c71c4ee70ca.jpg",
+    "static/media/img.jpg": "./static/media/img.c623d4acc660145cf71b.jpg",
+    "static/media/img3.jpg": "./static/media/img3.423c6c47cdeccfab87c0.jpg",
+    "index.html": "./index.html",
+    "main.ac1c2289.css.map": "./static/css/main.ac1c2289.css.map",
+    "main.95bcac59.js.map": "./static/js/main.95bcac59.js.map",
+    "787.b4cdd736.chunk.js.map": "./static/js/787.b4cdd736.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac1c2289.css",
-    "static/js/main.7dd5bbc9.js"
+    "static/js/main.95bcac59.js"
   ]
 }
